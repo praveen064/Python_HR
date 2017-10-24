@@ -17,10 +17,19 @@ Sample Input
 Sample Output
 3713081631934410656
 
-Sol:
+Sol-1:
 if __name__ == '__main__':
     n = int(input())
     integer_list = map(int, input().split())
 	t = tuple(integer_list)
 print the result
 print hash(t)
+
+
+Sol-2:
+hash() is one of the functions in __builtins__ module, so we just need to create a tuple of the n elements and then pass it to the hash function.
+
+n = input()
+print (hash(tuple([int(i) for i in raw_input().split()])))
+
+
