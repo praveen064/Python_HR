@@ -1,4 +1,4 @@
-#@Validating and Parsing Email Addresses
+#@Validating and Parsing Email Addresses --> https://docs.python.org/2/library/email.util.html#module-email.utils
 
 A valid email address meets the following criteria:
 
